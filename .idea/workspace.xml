@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1aa3d76-646e-4c1f-b4fb-cd632a1ba7f5" name="Default Changelist" comment="add external Open Weather  API">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/config/JmsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_registration_login_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_registration_login_war_exploded.xml" afterDir="false" />
+    <list default="true" id="d1aa3d76-646e-4c1f-b4fb-cd632a1ba7f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-registration-login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-registration-login.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/WebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/auth/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/WebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/WebApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/auth/config/WebSecurityConfig.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jms-spring-integration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -104,7 +86,8 @@
       <workItem from="1574417805984" duration="23000" />
       <workItem from="1574423276861" duration="7591000" />
       <workItem from="1574433891441" duration="14000" />
-      <workItem from="1574760220719" duration="5353000" />
+      <workItem from="1574760220719" duration="6098000" />
+      <workItem from="1574856244024" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with swagger">
       <created>1574350764684</created>
@@ -134,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574429922363</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add message broker  Active MQ">
+      <created>1574766121759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574766121759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +230,7 @@
     <MESSAGE value="review properties" />
     <MESSAGE value="add user list" />
     <MESSAGE value="add external Open Weather  API" />
-    <option name="LAST_COMMIT_MESSAGE" value="add external Open Weather  API" />
+    <MESSAGE value="add message broker  Active MQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="add message broker  Active MQ" />
   </component>
 </project>

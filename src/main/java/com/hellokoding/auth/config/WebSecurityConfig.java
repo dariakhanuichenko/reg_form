@@ -26,9 +26,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/h2-console/**")
-                .permitAll()
-                .antMatchers("/resources/**", "/v2/api-docs", "/configuration/**", "/swagger*/**", "/registration").permitAll()
+//                .antMatchers("/h2-console/**")
+//                .permitAll()
+                .antMatchers("/h2-console/**","/resources/**", "/v2/api-docs", "/configuration/**", "/swagger*/**", "/registration").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
@@ -37,6 +37,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout()
                 .permitAll();
+
+        http.csrf().disable();
+        http.headers().frameOptions().disable();
     }
 
     @Bean
